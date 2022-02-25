@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{box-sizing:border-box;}
+
+
+main, nav, header, article, footer, section, img {
+    border: 1px solid grey;
+    margin: 2px;
+    border-radius:2px;
+    padding: 10px
+}
+main {max-width:1000px;background:white;}
+a{display:inline-block;
+  width:100%;
+
+  text-decoration:none;
+  color: cadetblue;
+  padding: 2px 2px 2px 12px;}
+a:hover {
+    background: aliceblue;
+}
+a#aktiv {
+    background: cadetblue;
+    color:beige;
+    font-size:18px;
+}
